@@ -9,7 +9,7 @@ const Testimonials: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col items-center mb-32 text-[#212121]">
           <span className="font-mono text-[12px] uppercase tracking-[0.5em] text-[#E35342] mb-6">/ Feedback</span>
-          <h2 className="text-6xl md:text-8xl font-heading-tall leading-none text-center">
+          <h2 className="text-4xl sm:text-5xl md:text-8xl font-heading-tall leading-none text-center">
             Kind words from <br /> <span className="italic">Collaborators.</span>
           </h2>
           <div className="font-display text-3xl mt-6 text-[#E35342] -rotate-3">(Always growing)</div>

@@ -25,10 +25,10 @@ const HomePage: React.FC = () => {
           >
             <div>
               <div className="text-[12px] font-mono uppercase tracking-[0.5em] text-[#E35342] mb-10">/ Identity</div>
-              <h2 className="text-6xl md:text-8xl font-heading-tall text-[#F2E3CF] mb-12 leading-none uppercase tracking-tighter italic">
+              <h2 className="text-4xl sm:text-5xl md:text-8xl font-heading-tall text-[#F2E3CF] mb-12 leading-none uppercase tracking-tighter italic">
                 Translating the <span className="not-italic text-[#E35342]">Pulse</span> of the script.
               </h2>
-              <div className="space-y-10 text-[22px] font-light text-[#F2E3CF]/80 leading-snug">
+              <div className="space-y-10 text-[22px] font-light text-[#F2E3CF]/80 leading-snug overflow-hidden">
                 <p>
                   As a bilingual expert in audiovisual adaptation, I don't just swap words; I recreate atmospheres. My work lives at the intersection of cultural nuance and rhythmic precision.
                 </p>
@@ -47,7 +47,7 @@ const HomePage: React.FC = () => {
                   className="w-full h-full object-cover transition-all duration-1000 grayscale group-hover:grayscale-0"
                 />
               </div>
-              <div className="absolute -bottom-10 -right-10 px-10 py-6 bg-[#E35342] text-[#F2E3CF] rounded-3xl z-20 font-display text-4xl shadow-2xl rotate-3">
+              <div className="absolute -bottom-10 right-2 md:-right-10 px-10 py-6 bg-[#E35342] text-[#F2E3CF] rounded-3xl z-20 font-display text-4xl shadow-2xl rotate-3">
                 Laura S-L.
               </div>
             </div>
