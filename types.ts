@@ -17,3 +17,20 @@ export interface Testimonial {
   company?: string;
   avatar?: string;
 }
+
+export interface Article {
+  id: string;
+  slug: string;
+  title: string;
+  subtitle: string;
+  category: string;
+  date: string;
+  readTime: string;
+  excerpt: string;
+  // Contenu : tableau de blocs. Chaque bloc est un string.
+  // Préfixes : "## " = sous-titre, "> " = citation, "---" = séparateur
+  // Tout le reste = paragraphe normal
+  content: string[];
+  coverGradient: string;
+  categoryColor: string;
+}
